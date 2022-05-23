@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Registerpage</title>
+    <link rel="stylesheet" href="/register.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,400;1,600&family=Satisfy&display=swap" rel="stylesheet">
+</head>
+<body>
+    <div class="container">
+        <section class="navbar">
+            <ul>
+                <li><a href="/homepage.html">About me</a></li>
+                <li><a href="/contact.html">Contact</a></li>
+                <li><a class="active" href="/register.html">Register</a></li>
+                <li><a href="/login.html">Login</a></li>
+            </ul>
+        </section>
+        <form class="registerpage" action="register">
+            <h1 id="reg">Registration</h1><br>
+            <label for="Fname">First Name:</label>
+            <input type="text" required><br><br>
+            <label for="Lname">Last Name:</label>
+            <input type="text" required><br><br>
+            <label for="Pnumber">Phone Number:</label>
+            <input class="text" type="number" name="nigeria" id="+234" required><br><br>
+            <label for="Gender">Gender:</label>
+            <select class="text" name="Gender" id="Gender">
+                <option value="male">Male</option>
+                <option value="female">Female</option>
+                <option value="none">Decide not to say</option>
+            </select><br><br>
+            <label for="Country">Country:</label>
+            <input class="text" type="text" required><br><br>
+            <label for="state/province">State/province:</label>
+            <input class="text" type="text" required><br><br>
+            <label for="Uname">Username:</label>
+            <input class="text" type="text" required><br><br>
+            <label for="password">Password:</label>
+            <input class="text" type="password" name="password" id="password" required><br><br>
+            <label for="Cpassword">Confirm Password:</label>
+            <input class="text" type="password" name="Cpassword" id="Cpassword"><br><br>
+            <input class="register" type="button" value="register" name="Register">
+        </form>
+    </div>
+</body>
+</html>

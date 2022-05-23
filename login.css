@@ -1,0 +1,65 @@
+*{
+    padding: 0;
+    margin: 0;
+    
+}
+.container{
+    background-color: #C69B7B;
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 100vh;
+    font-family: 'Poppins', sans-serif;
+    background-size: 100%;
+    font-weight: normal;
+}
+.navbar{
+    height: 60px;
+    width: 100%;
+    background-color: black;
+}
+.navbar ul{
+    float: right;
+    margin-right: 50px;
+    margin-top: 20px;
+}
+.navbar ul li{
+    display: inline-block;
+    margin-left: 70px;
+}
+.navbar li a{
+    color: #C69B7B;
+    font-size: large;
+    text-decoration: none;
+}
+a.active,
+a:hover{
+    background-color: #E5EFC1;  
+    border: 2px solid black;
+    border-radius: 25px;
+    padding: 7px;
+}
+
+.loginpage{
+    padding-top: 70px;
+    padding-left: 35%;
+    font-family: 'Poppins', sans-serif;
+}
+
+#login{
+    font-family: 'Satisfy', cursive;
+}
+label{
+    width: 120px;
+    display: inline-block;
+}
+input{
+    width: 300px;
+}
+.signin{
+    background-color: black;
+    color: #C69B7B;
+    border-radius: 15px;
+    border: 2px solid;
+    padding: 8px;
+    width: 80px;
+}
